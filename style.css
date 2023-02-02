@@ -1,0 +1,190 @@
+.header {
+  background-color: #00000080;
+  margin: 20px 5% 50px 5%;
+  color: white;
+  border: 2px white solid;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+.color-s {
+  background-color: #000000c0;
+  margin: 100px 5% 100px 5%;
+  color: white;
+  border: 2px white solid;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+.color-s div {
+    padding:50px;
+    border-radius:10px;
+    margin:10px;
+}
+.color-s div span{
+    opacity:0;
+    transition:opacity 0.25s 0s;
+}
+.color-s div:hover span{
+    opacity:1;
+}
+.color-s img {
+    height:200px;
+    border-radius:10px;
+}
+
+
+
+#black-s div {
+  background-color:#000000;
+}
+#blue-s div {
+  background-color:#0000ff;
+}
+#brown-s div {
+  background-color:#8B4513;
+}
+#gray-s div {
+  background-color:#808080;
+}
+#green-s div {
+  background-color:#00ff00;
+  color:black;
+}
+#orange-s div {
+  background-color:#ff8000;
+  color:black;
+}
+#pink-s div {
+  background-color:#8000ff;
+}
+#red-s div {
+  background-color:#ff0000;
+}
+#white-s div {
+  background-color:#ffffff;
+  color:black;
+}
+#yellow-s div {
+  background-color:#ffff00;
+  color:black;
+}
+
+.top-left {
+  border-top-left-radius: 10px;
+}
+.top-right {
+  border-top-right-radius: 10px;
+}
+.bottom-left {
+  border-bottom-left-radius: 10px;
+}
+.bottom-right {
+  border-bottom-right-radius: 10px;
+}
+
+
+
+div.row div {
+  border: 2px white solid;
+  text-align: center;
+  padding: 5px;
+  color: white;
+  height: 270px;
+  box-sizing: border-box;
+}
+.middle {
+  text-align: center;
+  color: white;
+}
+body {
+  font-size: 20px;
+}
+body.mainHTML {
+  background-image: url("https://i.imgur.com/alQVDUG_d.webp?maxwidth=760&fidelity=grand");
+}
+.row div img {
+  width: 100%;
+  height: 85%;
+  object-fit: cover;
+  display: block;
+  border-radius: 10px;
+
+  transition: filter 0.25s 0s;
+}
+.row div img:hover {
+  filter: saturate(2);
+}
+.row div p {
+  display: block;
+  width: 100%;
+  background-color: #000000c0;
+  border-radius: 10px;
+}
+
+
+
+
+.black {
+  background-color: black;
+}
+.blue {
+  background-color: rgb(40, 67, 129);
+}
+.brown {
+  background-color: rgb(63, 40, 40);
+}
+.gray {
+  background-color: gray;
+}
+.green {
+  background-color: green;
+}
+.orange {
+  background-color: orange;
+}
+.pink {
+  background-color: rgb(255, 124, 243);
+}
+.red {
+  background-color: red;
+}
+.white {
+  background-color: white;
+}
+.yellow {
+  background-color: yellow;
+}
+/* ------------------------------------------------------------- */
+
+body.blackbody {
+  background-color: black;
+  color: white;
+}
+body.bluebody {
+  background-color: rgb(40, 67, 129);
+}
+body.brownbody {
+  background-color: rgb(63, 40, 40);
+}
+body.graybody {
+  background-color: gray;
+}
+body.greenbody {
+  background-color: green;
+}
+body.orangebody {
+  background-color: orange;
+}
+body.pinkbody {
+  background-color: rgb(255, 124, 243);
+}
+body.redbody {
+  background-color: red;
+}
+body.whitebody {
+  background-color: white;
+}
+body.yellowbody {
+  background-color: yellow;
+}
